@@ -1,0 +1,63 @@
+header h1{
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+header span{
+    font-size: 1.8em;
+}
+header{
+    padding: 12px;
+    border-bottom: 2px solid var(--third-color);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.8em;
+}
+.informe{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.informe table{
+    background: #062626;
+    opacity: 90%;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 30px;
+    table-layout: fixed;
+}
+.informe table tbody{
+    font-size:1.8em;
+    text-align: center;
+}
+.informe table tr{
+    font-size: 1.8em;
+}
+.informe table tr td{
+    font-size: 1.8em;
+    width: 110px;   
+}
+img{
+    width:20px;
+    height:20px;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+footer div{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+footer div p, footer div a{
+    font-size: 10em;
+}
+footer div .volver__icon{
+    transform: rotate(180deg);
+}

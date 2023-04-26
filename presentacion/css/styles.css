@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --primary-color: #001111;
+    --secondary-color: #73BA9B;
+    --third-color:#D5F2E3;
+    --negative-action-color:#BA2D0B;
+    --positive-action-color:#003E1F;
+}
+body{
+    background-color: var(--primary-color);
+    color: white;
+}
+a button{
+    cursor: pointer;
+}
+a:hover, button:hover{
+    opacity: 70%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

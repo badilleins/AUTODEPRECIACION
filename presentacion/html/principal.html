@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/principal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de depreciación</title>
+</head>
+<body>
+    <header>
+        <h1>AUTODEPRECIACIÓN</h1>
+        <span>Calcula la depreciación de tu vehículo</span>
+    </header>
+    <section class="depreciar">
+        <form>
+            <label for="costo-inicial" class="depreciar__ingresar-costo">Ingrese el costo</label>
+            <input id="costo-inicial" type="number" class="depreciar__costo" placeholder="Ej:50">
+            <label for="fecha-inicial" class="depreciar__ingresar-fecha-inicial">Ingrese la fecha inicial</label>
+            <input id="fecha-inicial" class="depreciar__fecha-inicial" placeholder="Ej:08/03/2010" type="date">
+            <label for="fecha-final" class="depreciar__ingresar-fecha-final" >Ingrese la fecha final</label>
+            <input id="fecha-final" class="depreciar__fecha-final" placeholder="Ej:10/04/2022" type="date">
+            <input class="depreciar__btn" type="submit" value="Calcular" onclick="devolverDepreciacion()">
+        </form>
+    </section>
+   <script src="../../logica/Interfaz.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+header h1{
+    font-size: 3.6em;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+header span{
+    font-size: 2em;
+}
+header{
+    padding: 12px;
+    border-bottom: 2px solid var(--third-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.depreciar{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.depreciar form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+label{
+    font-size: 3em;
+    color: var(--thir-color);
+    margin-bottom: 8px ;
+}
+input{
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 12px;
+    background-color: var(--secondary-color);
+}
+.depreciar__btn{
+    margin-top: 16px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--positive-action-color);
+    color: white;
+    cursor: pointer;
+    font-size: 3.2em;
+}
+
