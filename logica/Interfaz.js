@@ -114,5 +114,5 @@ const devolverDepreciacion = () => {
     const fechaIni= new Date(document.getElementById('fecha-inicial').value);
     const fechaFin = new Date(document.getElementById('fecha-final').value);
     const depreciacion = new Depreciacion(costoIni, fechaIni, fechaFin);    
-    alert(depreciacion.getDepreciacion());
+    alert("La depreciación de su vehículo es de:" + depreciacion.getDepreciacion().toFixed(2)  +" \n El precio final del mismo es de: " + depreciacion.calcularCostoFinal().toFixed(2));
 }
